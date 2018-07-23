@@ -1,0 +1,7 @@
+---
+- name: Sub Module one playbook
+  hosts: all
+  vars:
+  tasks:
+    - debug:
+        msg: This came from submodule two
